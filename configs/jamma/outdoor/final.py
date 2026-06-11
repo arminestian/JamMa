@@ -8,7 +8,7 @@ cfg.JAMMA.FINE.D_MODEL = 64
 cfg.TRAINER.SCHEDULER = 'CosineAnnealing'  # [MultiStepLR, CosineAnnealing, ExponentialLR]
 cfg.TRAINER.COSA_TMAX = 30  # COSA: CosineAnnealing
 cfg.TRAINER.CANONICAL_BS = 2
-cfg.TRAINER.CANONICAL_LR = 1e-4
+cfg.TRAINER.CANONICAL_LR = 1e-5
 cfg.TRAINER.WARMUP_STEP = 58200  # 3 epochs
 
 # pose estimation
